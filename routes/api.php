@@ -8,8 +8,10 @@ use App\Http\Controllers\Api\BlogController;
 use App\Http\Controllers\Api\CareerController;
 use App\Http\Controllers\Api\CategoryController;
 use App\Http\Controllers\Api\ContactController;
+use App\Http\Controllers\Api\EducationController;
 use App\Http\Controllers\Api\ProjectController;
 use App\Http\Controllers\Api\ReferanceController;
+use App\Http\Controllers\Api\SliderController;
 use App\Http\Controllers\Api\TagController;
 
 Route::group(['prefix'=>'auth','as'=>'auth.'],function(){
@@ -42,6 +44,12 @@ Route::get("/careers",[CareerController::class,"index"]);
 Route::post("/career/store",[CareerController::class,"store"]);
 Route::post("/career/{id}/update",[CareerController::class,"update"]);
 
+Route::get("/educations",[EducationController::class,"index"]);
+Route::post("/education/store",[EducationController::class,"store"]);
+Route::post("/education/{id}/update",[EducationController::class,"update"]);
+Route::post("/education/{id}/delete",[EducationController::class,"delete"]);
+
+
 Route::get("/tags",[TagController::class,"index"]);
 Route::get("/tag/{id}",[TagController::class,"edit"]);
 Route::post("/tags/store",[TagController::class,"store"]);
@@ -69,5 +77,8 @@ Route::get("/project/{id}",[ProjectController::class,"edit"]);
 Route::post("/project/store",[ProjectController::class,"store"]);
 Route::post("/project/{id}/update",[ProjectController::class,"update"]);
 
-
+Route::get("/sliders",[SliderController::class,"index"]);
+Route::get("/slider/{id}",[SliderController::class,"edit"]);
+Route::post("/slider/store",[SliderController::class,"store"]);
+Route::post("/slider/{id}/update",[SliderController::class,"update"]);
 });
