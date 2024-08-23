@@ -1,0 +1,24 @@
+<?php
+
+namespace Database\Seeders;
+
+use App\Models\Blog;
+use Illuminate\Database\Seeder;
+use Illuminate\Database\Console\Seeds\WithoutModelEvents;
+
+class BlogSeeder extends Seeder
+{
+    /**
+     * Run the database seeds.
+     */
+    public function run(): void
+    {
+    Blog::create([
+        "name" => "Merhaba Dünya BLogu",
+        "content" => "Merhaba Dünya BLogu içeriği",
+        "category_id"=>1,
+
+    ]);
+
+    }
+}
