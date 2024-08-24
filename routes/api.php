@@ -12,6 +12,7 @@ use App\Http\Controllers\Api\ContactController;
 use App\Http\Controllers\Api\EducationController;
 use App\Http\Controllers\Api\ProjectController;
 use App\Http\Controllers\Api\ReferanceController;
+use App\Http\Controllers\Api\SiteSettingController;
 use App\Http\Controllers\Api\SliderController;
 use App\Http\Controllers\Api\TagController;
 
@@ -88,6 +89,11 @@ Route::post("/social-media/update-order-no",[SocialMediaController::class,"updat
 Route::post("/social-media/store",[SocialMediaController::class,"store"]);
 Route::post("/social-media/{id}/update",[SocialMediaController::class,"update"]);
 Route::get("/social-media/{id}/delete",[SocialMediaController::class,"delete"]);
+
+Route::get("/site-settings",[SiteSettingController::class,"index"]);
+Route::post("/site-setting/store",[SiteSettingController::class,"store"]);
+Route::post("/site-setting/{id}/update",[SiteSettingController::class,"update"]);
+Route::get("/site-setting/{id}/delete",[SiteSettingController::class,"delete"]);
 
 
 });
