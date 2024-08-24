@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Api\SocialMediaController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Api\UserController;
@@ -81,4 +82,12 @@ Route::get("/sliders",[SliderController::class,"index"]);
 Route::get("/slider/{id}",[SliderController::class,"edit"]);
 Route::post("/slider/store",[SliderController::class,"store"]);
 Route::post("/slider/{id}/update",[SliderController::class,"update"]);
+
+Route::get("/social-medias",[SocialMediaController::class,"index"]);
+Route::post("/social-media/update-order-no",[SocialMediaController::class,"updateOrderNo"]);
+Route::post("/social-media/store",[SocialMediaController::class,"store"]);
+Route::post("/social-media/{id}/update",[SocialMediaController::class,"update"]);
+Route::get("/social-media/{id}/delete",[SocialMediaController::class,"delete"]);
+
+
 });
