@@ -5,7 +5,13 @@
                     <h3 class="text-primary mb-3">Merhaba, ben</h3>
                     <h1 class="display-3 mb-3">{{$slider->title}}</h1>
                     <h2 class="typed-text-output d-inline"></h2>
-                    <div class="typed-text d-none">Web Designer, Web Developer, Front End Developer, Apps Designer, Apps Developer</div>
+                    <div class="typed-text d-none">@foreach ($skills as $index => $skill)
+    {{$skill->title." Geliştirici"}}
+    @if(!$loop->last)
+        , 
+    @endif
+@endforeach
+</div>
                     <div class="d-flex align-items-center pt-5">
                         <a href="{{$slider->link}}" class="btn btn-primary py-3 px-4 me-5">Linkedin Profili</a>
                         <button type="button" class="btn-play" data-bs-toggle="modal"
