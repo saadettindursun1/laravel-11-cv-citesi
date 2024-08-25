@@ -1,85 +1,62 @@
-<div id="service">
-        <div class="service1-section-area">
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-10">
-                <div class="service-header-area">
-                  <div class="pbmit-heading-subheading">
-                    <h4> <img src="assets/img/icons/star3.png" alt="">OUR SERVICE</h4>
-                    <h2 class="text-anime-style-3">Best Digital Marketing</h2>
-                    <span class="designer text-anime-style-3">graphic Designer</span>
-                    <span class="marketer">SERVICE
-                      <img src="assets/img/elements/elements5.png" alt="" class="elements1" data-aos="fade-left" data-aos-duration="800">
-                      <img src="assets/img/elements/elements5.png" alt="" class="elements2" data-aos="fade-right" data-aos-duration="1000">
-                      <img src="assets/img/elements/elements5.png" alt="" class="elements3" data-aos="fade-left" data-aos-duration="1100">
-                      <img src="assets/img/elements/elements5.png" alt="" class="elements4" data-aos="fade-right" data-aos-duration="1200">
-                    </span>
-                  </div>
+<div class="container-fluid bg-light my-5 py-6" id="service">
+        <div class="container">
+            <div class="row g-5 mb-5 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="col-lg-6">
+                    <h1 class="display-5 mb-0">My Services</h1>
                 </div>
-
-                <div class="service-boxs-area">
-                  <img src="assets/img/icons/star4.png" alt="" class="star2 keyframe5">
-                  <div class="service-author-box box1" style="background-image: url(assets/img/bg/polygon9.png); background-position: center; background-repeat: no-repeat; background-size: contain;" data-aos="zoom-out" data-aos-duration="700">
-                    <div class="content">
-                      <div class="icons">
-                        <img src="assets/img/icons/service7.svg" alt="">
-                      </div>
-                      <p>social media</p>
-                    </div>
-                  </div>
-
-                  <div class="service-author-box box2" data-aos="zoom-out" data-aos-duration="800" style="background-image: url(assets/img/bg/polygon8.png); background-position: center; background-repeat: no-repeat; background-size: contain;">
-                    <img src="assets/img/bg/polygon9.png" alt="" class="polygon2">
-                    <div class="content">
-                      <div class="icons">
-                        <img src="assets/img/icons/service8.svg" alt="">
-                      </div>
-                      <p>email marketing</p>
-                    </div>
-                  </div>
-
-                  <div class="service-author-box box3" data-aos="zoom-out" data-aos-duration="900" style="background-image: url(assets/img/bg/polygon8.png); background-position: center; background-repeat: no-repeat; background-size: contain;">
-                    <img src="assets/img/bg/polygon9.png" alt="" class="polygon2">
-                    <div class="content">
-                      <div class="icons">
-                        <img src="assets/img/icons/service9.svg" alt="">
-                      </div>
-                      <p>SEO marketing</p>
-                    </div>
-                  </div>
-
-                  <div class="service-author-box box4" data-aos="zoom-out" data-aos-duration="1000" style="background-image: url(assets/img/bg/polygon8.png); background-position: center; background-repeat: no-repeat; background-size: contain;">
-                    <img src="assets/img/bg/polygon9.png" alt="" class="polygon2">
-                    <div class="content">
-                      <div class="icons">
-                        <img src="assets/img/icons/service10.svg" alt="">
-                      </div>
-                      <p>ppc marketing</p>
-                    </div>
-                  </div>
-
-                  <div class="service-author-box box5" data-aos="zoom-out" data-aos-duration="1100" style="background-image: url(assets/img/bg/polygon8.png); background-position: center; background-repeat: no-repeat; background-size: contain;">
-                    <img src="assets/img/bg/polygon9.png" alt="" class="polygon2">
-                    <div class="content">
-                      <div class="icons">
-                        <img src="assets/img/icons/service11.svg" alt="">
-                      </div>
-                      <p>video marketing</p>
-                    </div>
-                  </div>
-
-                  <div class="service-author-box box6" data-aos="zoom-out" data-aos-duration="1200" style="background-image: url(assets/img/bg/polygon8.png); background-position: center; background-repeat: no-repeat; background-size: contain;">
-                    <img src="assets/img/bg/polygon9.png" alt="" class="polygon2">
-                    <div class="content">
-                      <div class="icons">
-                        <img src="assets/img/icons/service12.svg" alt="">
-                      </div>
-                      <p>graphic design</p>
-                    </div>
-                  </div>
+                <div class="col-lg-6 text-lg-end">
+                    <a class="btn btn-primary py-3 px-5" href="">Hire Me</a>
                 </div>
-              </div>
             </div>
-          </div>
+            <div class="row g-4">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item d-flex flex-column flex-sm-row bg-white rounded h-100 p-4 p-lg-5">
+                        <div class="bg-icon flex-shrink-0 mb-3">
+                            <i class="fa fa-crop-alt fa-2x text-dark"></i>
+                        </div>
+                        <div class="ms-sm-4">
+                            <h4 class="mb-3">Creative Design</h4>
+                            <h6 class="mb-3">Start from <span class="text-primary">$199</span></h6>
+                            <span>Stet lorem dolor diam amet vero eos. No stet est diam amet diam ipsum. Clita dolor duo clita sit sed sit dolor eos.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item d-flex flex-column flex-sm-row bg-white rounded h-100 p-4 p-lg-5">
+                        <div class="bg-icon flex-shrink-0 mb-3">
+                            <i class="fa fa-code-branch fa-2x text-dark"></i>
+                        </div>
+                        <div class="ms-sm-4">
+                            <h4 class="mb-3">Graphic Design</h4>
+                            <h6 class="mb-3">Start from <span class="text-primary">$199</span></h6>
+                            <span>Stet lorem dolor diam amet vero eos. No stet est diam amet diam ipsum. Clita dolor duo clita sit sed sit dolor eos.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item d-flex flex-column flex-sm-row bg-white rounded h-100 p-4 p-lg-5">
+                        <div class="bg-icon flex-shrink-0 mb-3">
+                            <i class="fa fa-code fa-2x text-dark"></i>
+                        </div>
+                        <div class="ms-sm-4">
+                            <h4 class="mb-3">Web Design</h4>
+                            <h6 class="mb-3">Start from <span class="text-primary">$199</span></h6>
+                            <span>Stet lorem dolor diam amet vero eos. No stet est diam amet diam ipsum. Clita dolor duo clita sit sed sit dolor eos.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item d-flex flex-column flex-sm-row bg-white rounded h-100 p-4 p-lg-5">
+                        <div class="bg-icon flex-shrink-0 mb-3">
+                            <i class="fa fa-laptop-code fa-2x text-dark"></i>
+                        </div>
+                        <div class="ms-sm-4">
+                            <h4 class="mb-3">UI/UX Design</h4>
+                            <h6 class="mb-3">Start from <span class="text-primary">$199</span></h6>
+                            <span>Stet lorem dolor diam amet vero eos. No stet est diam amet diam ipsum. Clita dolor duo clita sit sed sit dolor eos.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
+    </div>

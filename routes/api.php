@@ -13,6 +13,7 @@ use App\Http\Controllers\Api\EducationController;
 use App\Http\Controllers\Api\ProjectController;
 use App\Http\Controllers\Api\ReferanceController;
 use App\Http\Controllers\Api\SiteSettingController;
+use App\Http\Controllers\Api\SkillsController;
 use App\Http\Controllers\Api\SliderController;
 use App\Http\Controllers\Api\TagController;
 
@@ -98,6 +99,12 @@ Route::get("/site-settings",[SiteSettingController::class,"index"]);
 Route::post("/site-setting/store",[SiteSettingController::class,"store"]);
 Route::post("/site-setting/{id}/update",[SiteSettingController::class,"update"]);
 Route::get("/site-setting/{id}/delete",[SiteSettingController::class,"delete"]);
+
+
+Route::get("/skills",[SkillsController::class,"index"]);
+Route::post("/skill/store",[SkillsController::class,"store"]);
+Route::post("/skill/{id}/update",[SkillsController::class,"update"]);
+Route::get("/skill/{id}/delete",[SkillsController::class,"delete"]);
 
 
 });

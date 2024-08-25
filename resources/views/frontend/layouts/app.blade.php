@@ -2,97 +2,76 @@
 <html lang="en">
 
 <head>
-     <meta charset="UTF-8">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>PICO || Personal Portfolio</title>
-     
-    <!--=====FAB ICON=======-->
-    <link rel="shortcut icon" href="assets/img/logo/logo3.png" type="image/x-icon">
+    <meta charset="utf-8">
+    <title>ProMan - Personal Portfolio HTML Template</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
 
-    <!--===== CSS LINK =======-->
-    <link rel="stylesheet" href="{{asset('assets/css/plugins/bootstrap.min.css')}}">
-    <link rel="stylesheet" href="{{asset('assets/css/plugins/aos.css')}}">
-    <link rel="stylesheet" href="{{asset('assets/css/plugins/fontawesome.css')}}">
-    <link rel="stylesheet" href="{{asset('assets/css/plugins/magnific-popup.css')}}">
-    <link rel="stylesheet" href="{{asset('assets/css/plugins/mobile.css')}}">
-    <link rel="stylesheet" href="{{asset('assets/css/plugins/owlcarousel.min.css')}}">
-    <link rel="stylesheet" href="{{asset('assets/css/plugins/sidebar.css')}}">
-    <link rel="stylesheet" href="{{asset('assets/css/plugins/slick-slider.css')}}">
-    <link rel="stylesheet" href="{{asset('assets/css/plugins/nice-select.css')}}">
-    <link rel="stylesheet" href="{{asset('assets/css/main.css')}}">
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
 
-    <!--=====  JS SCRIPT LINK =======-->
-    <script src="{{asset('assets/js/plugins/jquery-3-6-0.min.js')}}"></script>
-    <script src="{{asset('assets/js/plugins/waypoints.js')}}"></script>
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet"> 
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="{{asset('assets/lib/animate/animate.min.css')}}" rel="stylesheet">
+    <link href="{{asset('assets/lib/lightbox/css/lightbox.min.css')}}" rel="stylesheet">
+    <link href="{{asset('assets/lib/owlcarousel/assets/owl.carousel.min.css')}}" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="{{asset('assets/css/bootstrap.min.css')}}" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="{{asset('assets/css/style.css')}}" rel="stylesheet">
 </head>
-<body class="homepage2-body">
-    <!--===== PRELOADER STARTS =======-->
-    <div class="overlay flex cac vac preloader-parent">
-      <div>
-          <div class="loader preloader flex vac">
-              <svg width="200" height="200" >
-                  <circle class="background" cx="90" cy="90" r="80" transform="rotate(-90, 100, 90)"/>
-                  <circle class="outer" cx="90" cy="90" r="80" transform="rotate(-90, 100, 90)"/>
-              </svg>
-              <span class="circle-background">
-              </span>
-              <span class="logo animated keyframe6 fade-in">                
-                   <img src="assets/img/logo/logo3.png" alt="">            
-              </span>
-          </div>
-      </div>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="51">
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Yükleniyor...</span>
+        </div>
     </div>
-  <!--===== PRELOADER ENDS =======-->
+    <!-- Spinner End -->
 
-<!--===== PROGRESS STARTS=======-->
-<div class="paginacontainer">
-    <div class="progress-wrap">
-      <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
-        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/>
-      </svg>
-    </div>
-  </div>
-<!--===== PROGRESS ENDS=======-->
 
-<div class="cursor cursor2"></div>
- <!--===== MOBILE HEADER STARTS =======-->
-@include("frontend.inc.mobile-header")
-<!--===== MOBILE HEADER STARTS =======-->
+    <!-- Navbar Start -->
+    @include("frontend.navbar")
+    <!-- Navbar End -->
 
-<!--===== HEADER STARTS =======-->
-<div class="header-section-area" style="background-image: url(assets/img/bg/pagebg2.png); background-position: center; background-repeat: no-repeat; background-size: cover; background-attachment: fixed;">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-2">
-      @include('frontend.inc.mobile-sidebar')
-      </div>
-      <div class="col-lg-10">
-   @yield("content")
 
-    <!--===== SIDEBAR STARTS=======-->
-    @include("frontend.inc.sidebar")
+    @yield("content")
 
-   <!--===== SIDEBAR ENDS STARTS=======-->
-    </div>
-  </div>
-</div>
-</div>
-<!--===== HEADER ENDS=======-->
+    <!-- Copyright Start -->
+  
+    <!-- Copyright End -->
 
-<!--===== JS SCRIPT LINK =======-->
-<script src="{{asset('assets/js/plugins/bootstrap.min.js')}}"></script>
-<script src="{{asset('assets/js/plugins/fontawesome.js')}}"></script>
-<script src="{{asset('assets/js/plugins/aos.js')}}"></script>
-<script src="{{asset('assets/js/plugins/counter.js')}}"></script>
-<script src="{{asset('assets/js/plugins/gsap.min.js')}}"></script>
-<script src="{{asset('assets/js/plugins/ScrollTrigger.min.js')}}"></script>
-<script src="{{asset('assets/js/plugins/Splitetext.js')}}"></script>
-<script src="{{asset('assets/js/plugins/sidebar.js')}}"></script>
-<script src="{{asset('assets/js/plugins/magnific-popup.js')}}"></script>
-<script src="{{asset('assets/js/plugins/mobilemenu.js')}}"></script>
-<script src="{{asset('assets/js/plugins/owlcarousel.min.js')}}"></script>
-<script src="{{asset('assets/js/plugins/nice-select.js')}}"></script>
-<script src="{{asset('assets/js/main.js')}}"></script>
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="{{asset('assets/lib/wow/wow.min.js')}}"></script>
+    <script src="{{asset('assets/lib/easing/easing.min.js')}}"></script>
+    <script src="{{asset('assets/lib/waypoints/waypoints.min.js')}}"></script>
+    <script src="{{asset('assets/lib/typed/typed.min.js')}}"></script>
+    <script src="{{asset('assets/lib/counterup/counterup.min.js')}}"></script>
+    <script src="{{asset('assets/lib/owlcarousel/owl.carousel.min.js')}}"></script>
+    <script src="{{asset('assets/lib/isotope/isotope.pkgd.min.js')}}"></script>
+    <script src="{{asset('assets/lib/lightbox/js/lightbox.min.js')}}"></script>
+
+    <!-- Template Javascript -->
+    <script src="{{asset('assets/js/main.js')}}"></script>
 </body>
 
 </html>

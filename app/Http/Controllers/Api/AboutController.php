@@ -29,8 +29,9 @@ class AboutController extends Controller
             $uploadImageService = new UploadImageServices();
 
             $uploadImageService->createFolder("uploads");
+            if(isset($content->image)){
             $uploadImageService->deleteFile($content->image);
-
+        }
             $uploadImages = $uploadImageService->uploadMultipleImages($images);
 
             $request->merge(["image" => $uploadImages[0]["path"]]);

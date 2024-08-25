@@ -1,109 +1,66 @@
-<div id="contact">
-        <div class="contact-section-area">
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-12">
-                <div class="contact-header-area">
-                  <div class="row">
-                    <div class="col-lg-4">
-                      <div class="contact-from-area" data-aos="flip-right" data-aos-duration="1000">
-                        <h3 class="text-anime-style-3">Leave A Message</h3>
-                       <form action="https://api.web3forms.com/submit" method="POST">
-                        <input type="hidden" name="access_key" value="0cd32fff-eda2-4da3-be43-37d47fbb396b">
-
-                        <div class="input">
-                            <input type="text" placeholder="Full Name">
-                          </div>
-                          <div class="input">
-                            <input type="number" placeholder="Phone Number" required>
-                          </div>
-                          <div class="input">
-                            <input type="email" placeholder="Email Address" required>
-                          </div>
-                          <div class="input">
-                            <select name="country" id="country" class="country-area nice-select6">
-                              <option value="1" data-display="Service Type">Service Type</option>
-                              <option value="">Belgium</option>
-                              <option value="">Brezil</option>
-                              <option value="">Argentina</option>
-                              <option value="">Bangladesh</option>
-                              <option value="">Germany</option>
-                            </select>
-                          </div>
-                          <div class="input">
-                            <textarea placeholder="Message" required></textarea>
-                          </div>
-                          <div class="btn-area text-end" data-aos="fade-up" data-aos-duration="1200">
-                            <button type="submit" class="download-btn1">submit now</button>
-                          </div>
-                       </form>
-                      </div>
-                    </div>
-                    <div class="col-lg-8">
-                      <div class="contact-text-area">
-                        <div class="pbmit-heading-subheading">
-                          <h4> <img src="assets/img/icons/star3.png" alt="">contact me</h4>
-                          <h2 class="text-anime-style-3">get in <span class="designer">touch</span></h2><span class="marketer">today
-                            <img src="assets/img/elements/elements5.png" alt="" class="elements1" data-aos="fade-left" data-aos-duration="800">
-                            <img src="assets/img/elements/elements5.png" alt="" class="elements2" data-aos="fade-right" data-aos-duration="1000">
-                            <img src="assets/img/elements/elements5.png" alt="" class="elements3" data-aos="fade-left" data-aos-duration="1100">
-                            <img src="assets/img/elements/elements5.png" alt="" class="elements4" data-aos="fade-right" data-aos-duration="1200">
-                          </span>
-                        </div>
-                        <p data-aos="fade-up" data-aos-duration="800">At PICO, we understand that success is just about delivering a product-  about building relationships and making a meaningful impact of client.</p>
-                        <div class="contact-info-area">
-                          <div class="info-boxarea" data-aos="zoom-out" data-aos-duration="1000">
-                            <div class="icons">
-                              <img src="assets/img/icons/phone2.svg" alt="">
-                            </div>
-                            <div class="content">
-                              <h5>CALL</h5>
-                              <a href="tel:281-789-6642">281-789-6642</a>
-                            </div>
-                          </div>
-
-                          <div class="info-boxarea" data-aos="fade-up" data-aos-duration="1100">
-                            <div class="icons">
-                              <img src="assets/img/icons/email2.svg" alt="">
-                            </div>
-                            <div class="content">
-                              <h5>Email</h5>
-                              <a href="mailto:">info@PICOmedia.com</a>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="btn-area" data-aos="fade-up" data-aos-duration="1200">
-                          <a href="assets/img/cv/cv2.pdf" download="" class="download-btn1"><img src="assets/img/icons/download.svg" alt="">Download CV</a>                        
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-lg-12">
-                      <div class="footer-section-area" data-aos="fade-up" data-aos-duration="1200" style="background-image: url(assets/img/bg/footer-bg2.png); background-position: center; background-repeat: no-repeat; background-size: cover;">
-                        <div class="footer-form-area text-center pbmit-heading-subheading">
-                          <h2 class="text-anime-style-3">Sign up to newsletter</h2>
-                          <form>
-                            <input type="email" placeholder="Email Address*">
-                            <button type="submit">Subscribe now</button>
-                          </form>
-                        </div>
-                        <div class="social-links-area">
-                          <ul>
-                            <li data-aos="zoom-out" data-aos-duration="800"><a href="#"><img src="assets/img/icons/facebook.svg" alt=""> facebook</a></li>
-                            <li data-aos="zoom-out" data-aos-duration="900"><a href="#"><img src="assets/img/icons/instagram.svg" alt=""> Instagram</a></li>
-                            <li data-aos="zoom-out" data-aos-duration="1000"><a href="#" class="twitter"><img src="assets/img/icons/twitter.svg" alt=""> twitter</a></li>
-                            <li data-aos="zoom-out" data-aos-duration="1100"><a href="#"><img src="assets/img/icons/linkedin.svg" alt=""> linkedin</a></li>
-                            <li data-aos="zoom-out" data-aos-duration="1200"><a href="#"><img src="assets/img/icons/dribble.svg" alt=""> Dribbble</a></li>
-                          </ul>
-                        </div>
-                        <div class="copyright-pera">
-                          <p>© 2024 Personal Portfolio. All Rights Reserved Designed By Fleexstudio</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+<div class="container-xxl pb-5" id="contact">
+        <div class="container py-5">
+            <div class="row g-5 mb-5 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="col-lg-6">
+                    <h1 class="display-5 mb-0">Let's Work Together</h1>
                 </div>
-              </div>
+                <div class="col-lg-6 text-lg-end">
+                    <a class="btn btn-primary py-3 px-5" href="">Say Hello</a>
+                </div>
             </div>
-          </div>
+            <div class="row g-5">
+                <div class="col-lg-5 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <p class="mb-2">My office:</p>
+                    <h3 class="fw-bold">123 Street, New York, USA</h3>
+                    <hr class="w-100">
+                    <p class="mb-2">Call me:</p>
+                    <h3 class="fw-bold">+012 345 6789</h3>
+                    <hr class="w-100">
+                    <p class="mb-2">Mail me:</p>
+                    <h3 class="fw-bold">info@example.com</h3>
+                    <hr class="w-100">
+                    <p class="mb-2">Follow me:</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-square btn-primary me-2" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-square btn-primary me-2" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-square btn-primary me-2" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-square btn-primary me-2" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-7 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <p class="mb-4">The contact form is currently inactive. Get a functional and working contact form with Ajax & PHP in a few minutes. Just copy and paste the files, add a little code and you're done. <a href="https://htmlcodex.com/contact-form">Download Now</a>.</p>
+                    <form>
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="name" placeholder="Your Name">
+                                    <label for="name">Your Name</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input type="email" class="form-control" id="email" placeholder="Your Email">
+                                    <label for="email">Your Email</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="subject" placeholder="Subject">
+                                    <label for="subject">Subject</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <textarea class="form-control" placeholder="Leave a message here" id="message" style="height: 100px"></textarea>
+                                    <label for="message">Message</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <button class="btn btn-primary py-3 px-5" type="submit">Send Message</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
         </div>
-      </div>
+    </div>
