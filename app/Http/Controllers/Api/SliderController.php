@@ -19,6 +19,18 @@ class SliderController extends Controller
         return response()->json($slider);
     }
 
+    public function delete($id){
+        $slider = Slider::find($id);
+    
+        if (!$slider) {
+            return response()->json(["message" => "slider bulunamadı"], 404);
+        }
+    
+        $slider->delete();
+    
+        return response()->json(["message" => "slider başarıyla silindi"]);
+    }
+
 
 
     public function store(Request $request){

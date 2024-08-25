@@ -83,6 +83,10 @@ Route::get("/sliders",[SliderController::class,"index"]);
 Route::get("/slider/{id}",[SliderController::class,"edit"]);
 Route::post("/slider/store",[SliderController::class,"store"]);
 Route::post("/slider/{id}/update",[SliderController::class,"update"]);
+Route::get("/slider/{id}/delete",[SliderController::class,"delete"]);
+
+
+
 
 Route::get("/social-medias",[SocialMediaController::class,"index"]);
 Route::post("/social-media/update-order-no",[SocialMediaController::class,"updateOrderNo"]);
